@@ -143,7 +143,7 @@ const SEED_PRODUCTS = [
   }
 ];
 
-const API_URL = 'http://localhost:5000/api/products';
+const API_URL = 'https://splendycraft-backend.onrender.com/api/products';
 
 /**
  * Fetch all products from the backend API.
