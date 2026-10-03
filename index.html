@@ -157,7 +157,7 @@ nav.scrolled .nav-links a:hover{color:var(--gold)}
 .contact-section .headline{font-family:'Cormorant Garamond',serif;font-size:clamp(2.4rem,4vw,3.4rem);font-weight:300;color:var(--ivory)}
 .contact-section .headline em{font-style:italic;color:var(--gold-lt)}
 .contact-rule{width:56px;height:2px;background:linear-gradient(to right,var(--gold),transparent);margin:1.5rem auto 3.5rem}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
+.contact-grid{display:flex;justify-content:center;gap:2.5rem}
 .contact-card{background:rgba(253,248,240,0.03);border:1px solid rgba(201,151,58,0.16);padding:2.8rem 2rem;display:flex;flex-direction:column;align-items:center;transition:border-color 0.3s,background 0.3s}
 .contact-card:hover{border-color:rgba(201,151,58,0.42);background:rgba(201,151,58,0.05)}
 .contact-photo-wrap{width:156px;height:156px;border-radius:50%;overflow:hidden;border:3px solid rgba(201,151,58,0.38);margin-bottom:1.6rem;background:rgba(253,248,240,0.05);display:flex;align-items:center;justify-content:center}
@@ -193,7 +193,7 @@ footer{background:var(--dark);padding:2.8rem 4.5rem 1.5rem}
   .why-inner{grid-template-columns:1fr;gap:2.5rem}
   .why-cards{grid-template-columns:1fr}
   .why-section,.support-section,.contact-section{padding:5rem 1.5rem}
-  .contact-grid{grid-template-columns:1fr;gap:2rem}
+  .contact-grid{flex-direction:column;gap:2rem}
   footer{padding:2.5rem 1.5rem 1.5rem}
   .footer-top,.footer-bottom{flex-direction:column;gap:0.6rem;text-align:center}
 }
@@ -708,46 +708,6 @@ if (currentIndex >= slides.length) {
         <a href="tel:+91 9881260470" class="contact-phone">+91 98812 60470</a>
       </div>
 
-      <!-- CONTACT 2: Vedant Pawar -->
-      <div class="contact-card reveal d2">
-        <div class="contact-photo-wrap">
-          <!--
-            ╔══════════════════════════════════════════════╗
-            ║  HOW TO ADD VEDANT'S PHOTO                   ║
-            ║                                              ║
-            ║  Step 1: Delete the line below that says:   ║
-            ║    <div class="contact-photo-placeholder">  ║
-            ║    &#9786;</div>                             ║
-            ║                                              ║
-            ║  Step 2: In its place, type:                 ║
-            ║    <img src="vedant.jpg" alt="Vedant Pawar"> ║
-            ║                                              ║
-            ║  Make sure vedant.jpg is in the same folder  ║
-            ║  as this HTML file.                          ║
-            ╚══════════════════════════════════════════════╝
-          -->
-          <img src="WhatsApp Image 2026-05-15 at 23.51.12.jpeg" alt="Vedant Pawar">  
-        </div>
-        <div class="contact-name">Vedant Pawar</div>
-        <div class="contact-role">Co-Founder</div>
-        <!--
-          ╔══════════════════════════════════════════════╗
-          ║  HOW TO ADD VEDANT'S PHONE NUMBER            ║
-          ║                                              ║
-          ║  Find the line below:                        ║
-          ║    <a href="tel:+91XXXXXXXXXX"               ║
-          ║                                              ║
-          ║  Replace +91XXXXXXXXXX with Vedant's number  ║
-          ║  e.g.  tel:+919876543210                     ║
-          ║                                              ║
-          ║  Also replace the display text               ║
-          ║    +91 XXXXX XXXXX                           ║
-          ║  with the actual number, e.g.                ║
-          ║    +91 98765 43210                           ║
-          ╚══════════════════════════════════════════════╝
-        -->
-        <a href="tel:+919307716487" class="contact-phone">+91 93077 16487</a>
-      </div>
 
     </div>
   </div>
